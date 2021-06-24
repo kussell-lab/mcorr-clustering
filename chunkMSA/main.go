@@ -1,5 +1,7 @@
 package main
 
+//this program splits XMFA files into smaller XMFA chunks for use with mcorr-pair-sync
+//written by Asher Preska Steinberg (apsteinberg@nyu.edu)
 import (
 	"bufio"
 	"fmt"

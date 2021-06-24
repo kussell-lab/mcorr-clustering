@@ -15,7 +15,7 @@ import seaborn as sns
 
 def main():
     parser = argparse.ArgumentParser(description="Takes a distance matrix, clusters sequences, and outputs a cluster list\
-                                                    for use with write-cluster-msa ")
+                                                    for use with ClusterSplit")
     parser.add_argument("distance_matrix", help="symmetric distance matrix as .npy file")
     parser.add_argument("strains", help="list of strains")
     parser.add_argument("dendrogram", help="prefix for dendogram output file")

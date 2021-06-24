@@ -1,5 +1,8 @@
 package main
 
+//this program converts the output of mcorr-pair into a distance matrix
+//for use with clusterSequences.py
+//written by Asher Preska Steinberg (apsteinberg@nyu.edu)
 import (
 	"encoding/csv"
 	"fmt"

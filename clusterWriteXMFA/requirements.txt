@@ -1,2 +1,6 @@
 argparse
-
+numpy
+scipy
+pandas
+matplotlib
+seaborn

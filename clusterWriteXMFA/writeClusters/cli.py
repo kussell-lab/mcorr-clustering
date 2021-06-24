@@ -2,6 +2,7 @@
 import time
 import argparse
 import os
+from . import clusterSequences as cS
 """
 this commandline program runs the mcorr-clustering program with mcorr-pair in steps
 """
@@ -48,8 +49,7 @@ def main():
 
     #Step 3: take the distance matrix and list of names
     print("clustering sequences ...")
-    clusterInputs = (strains, "mcp_results", str(percentile), str(min_size))
-    os.system("clusterSequences distancematrix.npy %s %s --percentile=%s --min_size=%s" % clusterInputs)
+    cS.clusterSequences(strains, str(percentile), str(min_size))
 
     #Step 4: divide the core and flexible genome XMFA into XMFAs for each cluster
     print("writing cluster MSA files ...")

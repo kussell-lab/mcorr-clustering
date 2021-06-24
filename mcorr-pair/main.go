@@ -1,7 +1,7 @@
 package main
 
 //this program calculates correlation profiles between pairs of isolate sequences
-// original code by Mingzhi Lin (mingzhi, with modifications by Asher Preska Steinberg (apsteinberg@nyu.edu)
+// original code by Mingzhi Lin (mingzhi9@gmail.com), with modifications by Asher Preska Steinberg (apsteinberg@nyu.edu)
 import (
 	"bufio"
 	"fmt"

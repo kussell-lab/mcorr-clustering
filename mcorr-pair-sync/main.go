@@ -1,5 +1,7 @@
 package main
 
+//this program calculates correlation profiles between pairs of isolate sequences from two XMFA files
+// Written by Asher Preska Steinberg, based on mcorr-pair by Mingzhi Lin (mingzhi9@gmail.com)
 import (
 	"bufio"
 	"fmt"

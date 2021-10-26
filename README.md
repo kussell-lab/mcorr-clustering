@@ -27,14 +27,14 @@ via pip:
 
 # Usage
 
-`Small datasets (<5,000 sequences)`
+### Small datasets (<5,000 sequences)
 
 Datasets with <5000 sequences can be run in several hours using `clusterWrite`. You can input `clusterWrite --help`
 into your terminal to see the inputs. This makes flat clusters based on the pairwise distance between sequences,
 and you can change the cutoff percentile (which is the percentile of all the distances) at which the tree is cut.
 You can also change the minimum number of strains for a cluster to be included.
 
-`large datasets (~20,000 sequences)`
+### large datasets (~20,000 sequences)
 
 For large datasets, you can cluster these sequences in several steps:
 
